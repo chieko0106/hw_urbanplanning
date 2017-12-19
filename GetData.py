@@ -17,8 +17,6 @@ for key, value in all_keys.items():
 from Tools import ArrangeData4HierarchicalClustering
 Points = ArrangeData4HierarchicalClustering(data,All_keys[15:26])
 
-with open('Out.json','a') as f:
-    json.dump({'Points':Points},f)
-    f.close()
+
 print('Get data finished')
 
