@@ -7,8 +7,10 @@ with open(path,'r') as f:
 f.close()
 data=alldata['features']
 
-from get_by_key import get_list_by_key
+from Tools import get_list_by_key
 Tree = get_list_by_key(data,'Tree')
-max = max(Tree)
-min = min(Tree)
+
+
+import scipy
+points=scipy.randn(20,4)
 print('none')
