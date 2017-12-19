@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 #从data里面按照key提取所有POI的key的value组成新的数组
 def get_list_by_key(data,key):
     Out=[]
